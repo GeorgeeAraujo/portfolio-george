@@ -18,19 +18,16 @@ body{
     background-color: var(--background-color);
     min-height: 100vh;
     font-family: var(--main-font);
-    display: flex;
     flex-direction: column;
     color: var(--main-text-color);
 }
 
 .header{
-    display: flex;
     margin: 2em 4em 0em 4em;
     justify-content: space-between;
 }
 
 .header__logo-content{
-    display: flex;
     gap: 1em;
     align-items: center;
 }
@@ -44,7 +41,6 @@ body{
 }
 
 .header__nav{
-    display: flex;
     align-items: center;
     font-size: 22px;
     gap: 60px;
@@ -60,10 +56,7 @@ body{
 }
 
 .btn{
-    display: flex;
-    justify-content: center;
     text-decoration: none;
-    text-align: center;
     font-family: var(--main-font);
     font-size: 20px;
     color: var(--btn-text-color);
@@ -78,10 +71,8 @@ body{
 }
 
 .footer{
-    display: flex;
     width: 100%;
     color: var(--second-text-color);
-    text-align: center;
     flex-direction: column;
     margin-top: auto;
 }
@@ -90,18 +81,12 @@ body{
     width: 25px;
 }
 
-
-
 .footer__social-medias{
-    display: flex;
-    justify-content: center;
     gap: 1em;
 }
 
 .container{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     margin: auto;
     width: 50%;
@@ -109,7 +94,6 @@ body{
 
 .title{
     font-size: 50px;
-    text-align: center;
     margin: 0.5em;
 }
 
@@ -118,3 +102,16 @@ body{
     text-align: justify;
     padding-bottom: 3em;
 }
+
+.flexbox{
+    display: flex;
+}
+
+.centralize-content{
+    justify-content: center;
+}
+
+.centralize-text{
+    text-align: center;
+}
+

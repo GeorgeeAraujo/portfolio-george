@@ -1,7 +1,6 @@
 .introduction{
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 4em;
     width: 100%;
     box-sizing: border-box;
@@ -9,12 +8,10 @@
 
 .introduction__content{
     width: 50%;
-    text-align: center;
 }
 
 .introduction-img{
     width: 45%;
-    text-align: center;
 }
 
 .introduction__text{
@@ -33,15 +30,12 @@
 }
 
 .introduction__btns{
-    display: flex;
     width: 100%;
-    justify-content: center;
     gap: 4em;
     margin-top: 1em;
     margin-bottom: 4em;
 }
 
 .introduction__social-medias{
-    display: flex;
     gap: 1em;
 }
