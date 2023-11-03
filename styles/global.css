@@ -81,6 +81,10 @@ body{
     width: 25px;
 }
 
+.footer__icon:hover{
+    opacity: 0.8;
+}
+
 .footer__social-medias{
     gap: 1em;
 }
@@ -114,4 +118,6 @@ body{
 .centralize-text{
     text-align: center;
 }
+
+
 
