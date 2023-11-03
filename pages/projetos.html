@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/global.css">
     <link rel="stylesheet" href="../styles/projetos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
     <title>Projetos - George Araujo</title>
 </head>
 <body class="flexbox">
@@ -22,18 +23,49 @@
         </nav>
     </header>
     <h2 class="title centralize-text">Projetos</h2>
-    <section class="project flexbox centralize-content">
-        <section class="project__content flexbox centralize-content">
-            <h3 class="project__title centralize-text">Bird Diary</h3>
-            <p class="project__description">Suspendisse facilisis lorem non nulla luctus pulvinar. Nulla at ultrices neque. Suspendisse scelerisque mi non neque luctus cursus.</p>
-            <a href="##" class="btn flexbox centralize-content centralize-text project__btn">Ver projeto</a>
+    <!-- Slider main container -->
+    <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        <section class="project flexbox centralize-content">
+            <section class="project__content flexbox centralize-content">
+                <h3 class="project__title centralize-text">Bird Diary</h3>
+                <p class="project__description">Suspendisse facilisis lorem non nulla luctus pulvinar. Nulla at ultrices neque. Suspendisse scelerisque mi non neque luctus cursus.</p>
+                <a href="##" class="btn flexbox centralize-content centralize-text project__btn">Ver projeto</a>
+            </section>
+    
+            <section class="project__sources flexbox">
+                <img src="../img/bird-diary_login.png" class="project__sources-img">
+            </section>
+    
         </section>
-
-        <section class="project__sources flexbox">
-            <img src="../img/bird-diary_login.png" class="project__sources-img">
+      </div>
+      <div class="swiper-slide">
+        <section class="project flexbox centralize-content">
+            <section class="project__content flexbox centralize-content">
+                <h3 class="project__title centralize-text">Bird Diary</h3>
+                <p class="project__description">Suspendisse facilisis lorem non nulla luctus pulvinar. Nulla at ultrices neque. Suspendisse scelerisque mi non neque luctus cursus.</p>
+                <a href="##" class="btn flexbox centralize-content centralize-text project__btn">Ver projeto</a>
+            </section>
+    
+            <section class="project__sources flexbox">
+                <img src="../img/bird-diary_login.png" class="project__sources-img">
+            </section>
+    
         </section>
-
-    </section>
+      </div>
+      </div>
+    </div>
+    <!-- Pagination -->
+    <div class="swiper-pagination"></div>
+  
+    <!-- Navigation buttons -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  
+  </div>
 
 
     <footer class="footer flexbox centralize-text">
@@ -46,6 +78,7 @@
     </footer>
     
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>  
+    <script src="../scripts/swiperInit.js"></script>   
 </body>
 </html>
