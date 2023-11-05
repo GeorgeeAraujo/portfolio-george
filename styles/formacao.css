@@ -1,0 +1,27 @@
+.all-courses{
+    flex-wrap: wrap;
+
+}
+
+.course{
+    width: 30%;
+    background-color: var(--course-background);
+    margin: auto;
+    margin-bottom: 1.5em;
+    font-size: 16px;
+    padding: 1em;
+    border-radius: 30px;
+}
+
+.course__title{
+    margin-bottom: 0.5em;
+}
+
+.course__date{
+    margin-bottom: 0.5em;
+    justify-content: space-between;
+}
+
+.course__description-content{
+    text-align: justify;
+}
