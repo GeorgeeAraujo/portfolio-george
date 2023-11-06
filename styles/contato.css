@@ -1,0 +1,41 @@
+.contact{
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.contact__content{
+    width: 50%;
+    justify-content: center;
+}
+
+.contact__title{
+    font-size: 28px;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em
+}
+
+.contact__banner{
+    width: 45%;
+}
+
+.contact__social-medias{
+    align-items: center;
+    gap: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.contact__link{
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+.contact__icon{
+    width: 6%;
+}
+
+.contact__link:hover{
+    text-decoration: underline;
+}
