@@ -39,3 +39,7 @@
 .contact__link:hover{
     text-decoration: underline;
 }
+
+.contact__last{
+    margin-bottom: 2em;
+}
