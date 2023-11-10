@@ -5,12 +5,17 @@
 
 .course{
     width: 30%;
+    height: 226px;
     background-color: var(--course-background);
     margin: auto;
     margin-bottom: 1.5em;
     font-size: 16px;
     padding: 1em;
     border-radius: 30px;
+}
+
+.course:hover{
+    opacity: 0.9;
 }
 
 .course__title{
@@ -20,6 +25,10 @@
 .course__date{
     margin-bottom: 0.5em;
     justify-content: space-between;
+}
+
+.course__description-title{
+    margin-bottom: 0.5em;
 }
 
 .course__description-content{
