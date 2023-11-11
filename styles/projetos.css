@@ -20,13 +20,13 @@
 
 .project__sources-img{
     width: 80%;
-    height: 80%;
+    height: 65%;
     border: 1px solid black;
     margin: auto;
 }
 
 .project__btn{
-    width: 40%;
+    width: fit-content;
     font-size: 18px;
     padding-left: 2em;
     padding-right: 2em;
@@ -34,8 +34,7 @@
 
 .project__title{
     font-size: 30px;
-    text-transform: uppercase;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
 }
 
 .project__description{
