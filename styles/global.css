@@ -149,5 +149,9 @@ body{
         top: 100%;
         right: 0;
     }
+
+    .header__nav-link{
+        color: var(--btn-text-color);
+    }
 }
 
