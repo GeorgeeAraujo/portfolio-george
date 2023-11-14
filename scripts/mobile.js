@@ -26,9 +26,6 @@ if(window.matchMedia("(max-width:1024px").matches){ //Verifica se é um disposit
         listMenu.style.width = '100%';
         listMenu.style.padding = '0.5em';
         listMenu.style.marginTop = '0.5em';
-        listMenu.style.position = 'absolute';
-        listMenu.style.top = '100%';
-        listMenu.style.right = '0%'
     };
 
     function hideMenuList(){
