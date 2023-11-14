@@ -42,11 +42,10 @@
 
 
 
-@media (max-width:1024px){
-
+@media screen and (max-width:1024px){
     .introduction{
+        width: 100%;
         margin: auto;
-        flex-direction: column;
     }
     
    
