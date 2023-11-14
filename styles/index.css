@@ -44,7 +44,7 @@
 
 @media screen and (max-width:1024px){
     .introduction{
-        margin: 2em;
+        margin: auto 1em auto 1em;
     }
     
    
