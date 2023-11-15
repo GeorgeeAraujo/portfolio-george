@@ -30,4 +30,7 @@
         width: fit-content;
         font-size: 18px;
     }
+    .btn-cv{
+        margin-bottom: 1em;
+    }
 }
