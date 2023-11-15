@@ -48,3 +48,31 @@
     width: 90%;
     height: 90%;
 }
+
+@media screen and (max-width:1024px){
+    .swiper{
+        margin: auto;
+    }
+    
+    .project__sources{
+        display: none;
+    }
+
+    .project__content{
+        width: 80%;
+        border-radius: 20px;
+    }
+
+    .project__title{
+        font-size: 25px;
+    }
+
+    .project__description{
+        font-size: 18px;
+        padding-bottom: 1.5em;
+    }
+
+    .project__btn{
+        font-size: 16px;
+    }
+}
