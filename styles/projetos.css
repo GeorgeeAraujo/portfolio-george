@@ -70,6 +70,7 @@
     .project__description{
         font-size: 18px;
         padding-bottom: 1.5em;
+        height: 230px;
     }
 
     .project__btn{
