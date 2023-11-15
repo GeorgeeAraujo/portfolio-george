@@ -43,3 +43,28 @@
 .contact__last{
     margin-bottom: 2em;
 }
+
+@media screen and (max-width:1024px){
+    .contact__banner{
+        display: none;
+    }
+
+    .contact{
+        justify-content: center;
+    }
+
+    .contact__content{
+        width: 80%;
+        text-align: center;
+    }
+
+    .contact__link, .contact__email{
+        font-size: 18px;
+    }
+
+    .contact__title{
+        font-size: 25px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+}

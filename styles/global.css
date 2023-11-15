@@ -125,10 +125,14 @@ body{
         gap: 60%;
         position: relative;
     }
+
+    .header__logo{
+        width: 45px;
+    }
     
     .header__hamb-icon{
         display: block;
-        width: 50px;
+        width: 45px;
     }
 
     .header__name{
