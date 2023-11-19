@@ -15,7 +15,18 @@
 
 Índice
 =================
-
+<!--ts-->
+- [📖 Sobre o projeto](#-sobre-o-projeto)
+- [⚙️ Funcionalidades](#-funcionalidades)
+- [🛠️ Tecnologias](#-tecnologias)
+    + [**Website**](#-website)
+    + [**Utilitários**](#-utilit-rios)
+- [🎨 Layout](#-layout)
+  * [Website para desktops.](#website-para-desktops)
+  * [Website mobile.](#website-mobile)
+- [🦸 Autor](#-autor)
+- [📝 Licença](#-licen-a)
+<!--te-->
 ## 📖 Sobre o projeto
 
 O website foi desenvolvido com o objetivo de divulgar e demonstrar o trabalho de George Araujo como desenvolvedor fullstack. 
