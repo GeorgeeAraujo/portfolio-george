@@ -31,7 +31,7 @@ O website foi desenvolvido com o objetivo de divulgar e demonstrar o trabalho de
 
 - [x] Responsividade para dispositivos móveis (tablets e celulares).
 
-<p> 👀 As funcionalidades descritas podem ser testadas no site oficial do projeto. ➡️ Clique <a href="https://bird-diary.vercel.app/">aqui.⬅️ </a></p>
+<p> 👀 As funcionalidades descritas podem ser testadas no site oficial do projeto. ➡️ Clique <a href="">aqui.⬅️ </a></p>
 
 ---
 
@@ -59,6 +59,36 @@ As seguintes tecnologias foram utilizadas no projeto:
 - Git e GitHub (https://git-scm.com/).
 
 --- 
+
+## 🎨 Layout
+
+### Website para desktops.
+<h4>Página inicial</h4>
+<img src="./screenshots/home-desktop.png" width="800px">
+<h4>Página de "Sobre Mim"</h4>
+<img src="./screenshots/about_me-desktop.png" width="800px">
+<h4>Página de projetos</h4>
+<img src="./screenshots/project-desktop.png"  width="800px">
+<h4>Página de formações técnicas e acadêmicas</h4>
+<img src="./screenshots/courses-desktop.png" width="800px">
+<h4>Página de contato</h4>
+<img src="./screenshots/contact-desktop.png" width="800px">
+
+### Website mobile.
+<h4 align="center">Página inicial, Sobre Mim e de Projetos</h4>
+<p align="center">
+     <img src="./screenshots/home-mobile.png">
+     <img src="./screenshots/about_me-mobile.png">
+     <img src="./screenshots/projects-mobile.png">
+</p>
+<h4 align="center">Página de formações técnicas e acadêmicas e de contato</h4>
+<p align="center">
+     <img src="./screenshots/courses-mobile.png">
+     <img src="./screenshots/contact-mobile.png">
+</p>
+
+---
+
 
 ## 🦸 Autor
 
