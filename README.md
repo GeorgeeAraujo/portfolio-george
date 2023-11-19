@@ -17,15 +17,15 @@
 =================
 <!--ts-->
 - [📖 Sobre o projeto](#-sobre-o-projeto)
-- [⚙️ Funcionalidades](#-funcionalidades)
-- [🛠️ Tecnologias](#-tecnologias)
-    + [**Website**](#-website)
-    + [**Utilitários**](#-utilit-rios)
+- [⚙️ Funcionalidades](#%EF%B8%8F-funcionalidades)
+- [🛠️ Tecnologias](#%EF%B8%8F-tecnologias)
+    + [**Website**](#website)
+    + [**Utilitários**](#utilitários)
 - [🎨 Layout](#-layout)
   * [Website para desktops.](#website-para-desktops)
   * [Website mobile.](#website-mobile)
-- [🦸 Autor](#-autor)
-- [📝 Licença](#-licen-a)
+- [🦸 Autor](#autor)
+- [📝 Licença](#-licença)
 <!--te-->
 ## 📖 Sobre o projeto
 
