@@ -23,8 +23,14 @@
         <img src="../img/hamb-icon.png" class="header__hamb-icon" id="hamb-menu-icon">
     </header>
     <h2 class="title centralize-text">Formação</h2>
+    <sectio class="filter flexbox centralize-content">
+        <button class="filter__btn btn clicked" id="filter-all">Todos</button>
+        <button class="filter__btn btn" id="filter-frontend">Front-end</button>
+        <button class="filter__btn btn" id="filter-backend">Back-end</button>
+
+    </sectio>
     <main class="all-courses flexbox">
-        <div class="course">
+        <div class="course frontend backend">
             <h3 class="course__title centralize-text">Análise e Desenvolvimento de Sistemas</h3>
             <div class="course__date flexbox">
                 <p class="course__date-beginning">Início: 2023.</p>
@@ -34,7 +40,7 @@
             <p class="course__description-content">Cursou disciplinas relacionadas à programação web, modelagem e administração de bancos de dados relacionais e utilização da linguagem SQL a partir do MySQL. </p>
         </div>
 
-        <div class="course">
+        <div class="course frontend backend">
             <h3 class="course__title centralize-text">Formação em Bases da Programação</h3>
             <div class="course__date flexbox">
                 <p class="course__date-beginning">Início: jan/2023.</p>
@@ -44,7 +50,7 @@
             <p class="course__description-content">Realizada na plataforma Alura, abordou temas da lógica de programação, tais como construção de algoritmos, estruturas condicionais e de repetição e estruturas de dados. Além disso, forneceu uma base em Linux e arquitetura de computadores.</p>
         </div>
 
-        <div class="course">
+        <div class="course frontend">
             <h3 class="course__title centralize-text">Formação em HTML e CSS</h3>
             <div class="course__date flexbox">
                 <p class="course__date-beginning">Início: jan/2023.</p>
@@ -54,7 +60,7 @@
             <p class="course__description-content">A formação apresentou conceitos relacionados à construção e estilização de páginas web: tags semânticas, listas e formulários HTML, posicionamento com flexbox, classes, pseudoclasses e variáveis CSS, responsividade com media queries, entre outros </p>
         </div>
 
-        <div class="course">
+        <div class="course frontend">
             <h3 class="course__title centralize-text">Formação em JavaScript para web</h3>
             <div class="course__date flexbox">
                 <p class="course__date-beginning">Início: mai/2023.</p>
@@ -64,7 +70,7 @@
             <p class="course__description-content">Aprofundamento na manipulação do DOM, armazenamento, interação e consumo de dados a partir de APIs, métodos de array, criação de requisições e validação de formulários.</p>
         </div>
 
-        <div class="course">
+        <div class="course backend">
             <h3 class="course__title centralize-text">Formação em SQL com MySQL</h3>
             <div class="course__date flexbox">
                 <p class="course__date-beginning">Início: out/2023.</p>
@@ -74,7 +80,7 @@
             <p class="course__description-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam ex, sollicitudin ut nunc id, efficitur ultrices dui. Suspendisse ultrices mauris sem, et rutrum sapien sodales id. Cras </p>
         </div>
 
-        <div class="course">
+        <div class="course backend">
             <h3 class="course__title centralize-text">Formação em construção de APIs com Node.js e Express</h3>
             <div class="course__date flexbox">
                 <p class="course__date-beginning">Início: .</p>
@@ -84,7 +90,7 @@
             <p class="course__description-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam ex, sollicitudin ut nunc id, efficitur ultrices dui. Suspendisse ultrices mauris sem, et rutrum sapien sodales id. Cras </p>
         </div>
 
-        <div class="course">
+        <div class="course frontend">
             <h3 class="course__title centralize-text">Formação em Vue.js</h3>
             <div class="course__date flexbox">
                 <p class="course__date-beginning">Início: .</p>
@@ -106,6 +112,6 @@
         </div>
     </footer>
     <script src="../scripts/mobile.js"></script>
-    
+    <script src="../scripts/formacao-filter.js"></script>
 </body>
 </html>
