@@ -24,7 +24,7 @@
 - [🎨 Layout](#-layout)
   * [Website para desktops.](#website-para-desktops)
   * [Website mobile.](#website-mobile)
-- [🦸 Autor](#autor)
+- [🦸 Autor](#-autor)
 - [📝 Licença](#-licença)
 <!--te-->
 ## 📖 Sobre o projeto
