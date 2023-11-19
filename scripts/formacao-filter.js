@@ -5,16 +5,10 @@ const objectOfFilterBtns = {
     backend:()=>document.getElementById('filter-backend')
 };
 
-let coursesFiltered
 
 const courses = Array.from(document.querySelectorAll('.course'));
 
 filtersListener();
-
-function teste(keyword){
-    
-}
-
 
 function filtersListener(){
     arrayOfFilterBtns.forEach((filterBtn) => {
